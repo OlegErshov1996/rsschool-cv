@@ -1,0 +1,50 @@
+@import "../css/normalize.css"
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css)
+@import "../sass/base/_fonts"
+@import "../sass/abstracts/_variables"
+@import "../sass/abstracts/_additional_styles"
+@import "../sass/layout/_about_me"
+@import "../sass/layout/_main"
+@import "../sass/layout/_header"
+@import "../sass/layout/_skills"
+@import "../sass/layout/_contacts"
+@import "../sass/layout/_footer"
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+html
+  height: 100%
+  scroll-behavior: smooth
+
+a
+  text-decoration: none
+
+body
+  width: 100%
+  font-family: 'Raleway', sans-serif
+
+.container
+  display: flex
+  min-width: 320px
+  max-width: 100%
+  width: 1280px
+  margin: auto
+
+  .container-left
+    width: 30%
+    background-color: $primary
+    color: $gray
+
+  .container-right
+    width: 70%
+    background-color: $gray
+    color: $primary
+
+.wrap
+  min-width: 320px
+  max-width: 1540px
+  margin: 0 auto
+  padding: 20px 30px

@@ -1,0 +1,128 @@
+.title_h1
+    display: flex
+    font-family: 'Raleway', sans-serif
+    color: $primary
+    font-size: 70px
+    border-bottom: 2px solid $gray
+    margin-bottom: 20px
+
+    .title_name
+        font-weight: 500
+
+    .title_family
+        font-weight: 700
+
+.title_h2
+    font-family: 'Raleway', sans-serif
+    font-weight: 600
+    color: $orange
+    font-size: 30px
+    padding-bottom: 10px
+    margin-bottom: 20px
+
+    &__left
+        border-bottom: 2px solid $gray
+
+    &__right
+        border-bottom: 2px solid $primary
+        color: $primary
+
+.title_job
+    font-family: 'Raleway', sans-serif
+    color: $primary
+    font-weight: 300
+    font-size: 35px
+
+.main_wrap
+    .education_wrap
+        .info
+            font-family: "Raleway", sans-serif
+            font-weight: 400
+            font-size: 20px
+
+            .data
+                display: flex
+
+                .year
+                    position: relative
+                    width: 160px
+                    padding-right: 35px
+
+                    &::before
+                        content: ""
+                        position: absolute
+                        top: 3px
+                        right: 0
+                        width: 15px
+                        height: 15px
+                        background-color: $gray
+                        border: 2px solid $primary
+                        border-radius: 50%
+
+                    &::after
+                        content: ""
+                        position: absolute
+                        top: 22px
+                        right: 8px
+                        width: 3px
+                        height: 105%
+                        background-color: $orange
+
+                .text
+                    width: calc(100% - 160px)
+                    margin-bottom: 20px
+                    padding-left: 35px
+
+                    .speciality
+                        font-weight: 600
+
+    .experience_wrap
+        .info
+            font-family: "Raleway", sans-serif
+            font-weight: 400
+            font-size: 20px
+
+            .data
+                display: flex
+
+                .year
+                    position: relative
+                    width: 160px
+                    padding-right: 35px
+
+                    &::before
+                        content: ""
+                        position: absolute
+                        top: 3px
+                        right: 0
+                        width: 15px
+                        height: 15px
+                        background-color: $gray
+                        border: 2px solid $primary
+                        border-radius: 50%
+
+                    &::after
+                        content: ""
+                        position: absolute
+                        top: 22px
+                        right: 8px
+                        width: 3px
+                        height: 105%
+                        background-color: $orange
+
+                .text
+                    width: calc(100% - 160px)
+                    margin-bottom: 20px
+                    padding-left: 35px
+
+                    .speciality
+                        font-weight: 600
+
+    .languages_wrap
+        .info
+            font-family: "Raleway", sans-serif
+            font-weight: 400
+            font-size: 20px
+
+            ul
+                padding: 0 20px 30px 20px
