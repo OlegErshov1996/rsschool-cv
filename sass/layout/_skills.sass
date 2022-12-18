@@ -1,0 +1,19 @@
+.skills_wrap
+    .skills_list
+        display: flex
+        justify-content: space-between
+        margin: 0 auto 10px
+
+        progress
+            background-color: $primary
+            height: 12px
+            margin: auto 0
+
+        .skills_progress
+            &::-webkit-progress-bar
+                background-color: $gray
+                border-radius: 7px
+                
+            &::-webkit-progress-value
+                background-color: $orange
+                border-radius: 7px
